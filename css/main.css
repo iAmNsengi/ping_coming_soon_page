@@ -1,0 +1,53 @@
+@import url(https://fonts.google.com/specimen/Libre+Franklin);
+
+*{
+    font-family: 'Libre Franklin';
+    overflow: hidden;
+}
+body{
+    font-size: 20px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    font-family: 'Libre Franklin';
+
+}
+.form_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form_box .form_title{
+    font-size: 2rem;
+    color: hsl(0, 0%, 59%);
+    
+}
+.form_box .form_title span{
+    color: #111;
+    font-weight: 700;
+}
+.form_box  .form_subtitle{
+    align-self: center;
+    font-size: 1rem;
+    margin-top: -1rem;
+    color:hsl(0, 0%, 59%);
+}
+.form input{
+    border-radius: 999px;
+    border: none;
+    border: 1px solid hsl(0, 0%, 59%);
+    font-size: 20px;
+}
+button{
+    background-color: hsl(223, 87%, 63%);
+    color: #fff;
+    border-radius: 999px;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+}
